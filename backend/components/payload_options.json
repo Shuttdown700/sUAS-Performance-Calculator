@@ -1,0 +1,14 @@
+[
+    {
+        "name": "GoPro Hero 10",
+        "weight_g": 153,
+        "power_draw_W": 10,
+        "cost_usd": 399.99
+    },
+    {
+        "name": "None",
+        "weight_g": 0,
+        "power_draw_W": 0,
+        "cost_usd": 0
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Tattu R-Line 6S 1300mAh 120C",
+        "voltage_full_charge": 26,
+        "voltage_nominal": 22.2,
+        "capacity_mAh": 1300,
+        "C_rating": 120,
+        "weight_g": 215,
+        "cost_usd": 45.99,
+        "internal_resistance_mΩ": 1.5
+    },
+    {
+        "name": "CNHL Black Series 4S 1500mAh 100C",
+        "voltage_full_charge": 22,
+        "voltage_nominal": 14.8,
+        "capacity_mAh": 1500,
+        "C_rating": 100,
+        "weight_g": 180,
+        "cost_usd": 32.99,
+        "internal_resistance_mΩ": 2.0
+    }
+]

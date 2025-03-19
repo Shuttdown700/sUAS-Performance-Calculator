@@ -1,0 +1,14 @@
+[
+    {
+        "name": "ImpulseRC Apex 5-inch",
+        "wheelbase_mm": 225,
+        "weight_g": 125,
+        "cost_usd": 109.99
+    },
+    {
+        "name": "Armattan Marmotte 5-inch",
+        "wheelbase_mm": 226,
+        "weight_g": 130,
+        "cost_usd": 99.99
+    }
+]

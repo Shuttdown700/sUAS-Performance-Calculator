@@ -1,0 +1,49 @@
+{
+    "flight_stages": [
+      {
+        "stage_name": "Takeoff",
+        "time_spent": 180,
+        "altitude": {
+          "start": 0,
+          "end": 50,
+          "units": "meters"
+        },
+        "flight_descriptor": "Vertical ascent, high power demand",
+        "agility_requirement": "Low"
+      },
+      {
+        "stage_name": "Cruise",
+        "time_spent": null,
+        "altitude": {
+          "start": 50,
+          "end": 100,
+          "units": "meters"
+        },
+        "flight_descriptor": "Level flight, low power demand, stable conditions",
+        "agility_requirement": "Low"
+      },
+      {
+        "stage_name": "Maneuver",
+        "time_spent": 180,
+        "altitude": {
+          "start": 100,
+          "end": 30,
+          "units": "meters"
+        },
+        "flight_descriptor": "Agile flight, quick turns, increased power demand",
+        "agility_requirement": "High"
+      },
+      {
+        "stage_name": "Terminal Guidance",
+        "time_spent": 30,
+        "altitude": {
+          "start": 120,
+          "end": 0,
+          "units": "meters"
+        },
+        "flight_descriptor": "Agile flight, quick turns, increased power demand",
+        "agility_requirement": "High"
+      }
+    ]
+  }
+  

@@ -1,0 +1,126 @@
+{
+    "Hot & Clear": {
+      "conditions": {
+        "temperature": {
+          "value": 95,
+          "units": "Fahrenheit",
+          "description": "Hot temperature, increases battery stress and power usage"
+        },
+        "wind": {
+          "speed": {
+            "value": 5,
+            "units": "m/s",
+            "description": "Light wind, minimal impact on stability"
+          },
+          "direction": {
+            "value": 0,
+            "units": "degrees",
+            "description": "Wind from behind, not affecting forward flight"
+          },
+          "gusts": {
+            "value": 8,
+            "units": "m/s",
+            "description": "Moderate gusts could cause brief instability"
+          }
+        },
+        "humidity": {
+          "value": 30,
+          "units": "%",
+          "description": "Low humidity, conducive to stable performance"
+        },
+        "precipitation": {
+          "value": 0,
+          "units": "mm",
+          "description": "Clear skies, no precipitation"
+        },
+        "air_density": {
+          "value": 1.112,
+          "units": "kg/m^3",
+          "description": "Lower air density due to higher temperature"
+        }
+      }
+    },
+    "Cool & Rainy": {
+      "conditions": {
+        "temperature": {
+          "value": 50,
+          "units": "Fahrenheit",
+          "description": "Cool temperature, reduces battery stress but could reduce motor efficiency"
+        },
+        "wind": {
+          "speed": {
+            "value": 7,
+            "units": "m/s",
+            "description": "Moderate wind, will affect stability and increase power usage"
+          },
+          "direction": {
+            "value": 180,
+            "units": "degrees",
+            "description": "Wind coming from the front, reduces forward speed"
+          },
+          "gusts": {
+            "value": 12,
+            "units": "m/s",
+            "description": "Strong gusts, may cause significant instability and increase power usage"
+          }
+        },
+        "humidity": {
+          "value": 85,
+          "units": "%",
+          "description": "High humidity, could cause issues with electronics and reduce motor efficiency"
+        },
+        "precipitation": {
+          "value": 5,
+          "units": "mm",
+          "description": "Light rain, may cause slight reduction in lift and motor performance"
+        },
+        "air_density": {
+          "value": 1.275,
+          "units": "kg/m^3",
+          "description": "Higher air density due to cooler temperature and rain"
+        }
+      }
+    },
+    "Windy & Overcast": {
+      "conditions": {
+        "temperature": {
+          "value": 64,
+          "units": "Fahrenheit",
+          "description": "Mild temperature, optimal for battery performance"
+        },
+        "wind": {
+          "speed": {
+            "value": 15,
+            "units": "m/s",
+            "description": "Strong wind, significantly affecting stability and increasing power consumption"
+          },
+          "direction": {
+            "value": 90,
+            "units": "degrees",
+            "description": "Wind from the side, causes constant drift and reduces stability"
+          },
+          "gusts": {
+            "value": 20,
+            "units": "m/s",
+            "description": "Very strong gusts, would drastically affect stability and power usage"
+          }
+        },
+        "humidity": {
+          "value": 70,
+          "units": "%",
+          "description": "Moderate humidity, minor impact on performance but can affect sensors"
+        },
+        "precipitation": {
+          "value": 0,
+          "units": "mm",
+          "description": "No precipitation, only cloudy skies"
+        },
+        "air_density": {
+          "value": 1.225,
+          "units": "kg/m^3",
+          "description": "Normal air density, no significant impact on aerodynamics"
+        }
+      }
+    }
+  }
+  

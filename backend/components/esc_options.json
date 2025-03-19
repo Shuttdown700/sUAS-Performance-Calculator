@@ -1,0 +1,18 @@
+[
+    {
+        "name": "T-Motor F55A Pro II",
+        "continuous_current_A": 55,
+        "burst_current_A": 65,
+        "voltage_range": [14.8, 22.2],
+        "weight_g": 17,
+        "cost_usd": 59.99
+    },
+    {
+        "name": "Spedix GS35A",
+        "continuous_current_A": 35,
+        "burst_current_A": 45,
+        "voltage_range": [14.8, 22.2],
+        "weight_g": 8,
+        "cost_usd": 18.99
+    }
+]
